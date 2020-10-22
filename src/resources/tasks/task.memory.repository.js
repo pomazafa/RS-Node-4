@@ -1,6 +1,6 @@
 const db = require('../../common/inMemoryDB');
 const TABLE_NAME = 'Tasks';
-const Task = require('./task.model');
+const { Task } = require('./task.model');
 
 const getAll = async () => {
   return db.getAllEntities(TABLE_NAME);

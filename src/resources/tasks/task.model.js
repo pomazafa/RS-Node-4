@@ -1,4 +1,6 @@
 const uuid = require('uuid');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 class Task {
   constructor({
@@ -25,4 +27,14 @@ class Task {
   }
 }
 
-module.exports = Task;
+const TaskSchema = new mongoose.Schema({
+  id: { type: String, index: true, required: true, unique: true },
+  title: { type: String, index: true, required: true },
+  order: { type: String, index: true, required: true },
+  deskription: { type: String, index: true },
+  userId: { type: String, index: true, required: true },
+  boardId: { type: String, index: true, required: true },
+  columnId: { type: String, index: true, required: true }
+});
+
+module.exports = { Task, TaskSchema };

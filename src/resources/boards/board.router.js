@@ -1,7 +1,6 @@
 const router = require('express').Router();
-const Board = require('./board.model');
+const { Board } = require('./board.model');
 const boardsService = require('./board.service');
-// const taskRouter = require('../boards/board.router');
 
 router
   .route('/')

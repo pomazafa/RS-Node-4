@@ -1,6 +1,28 @@
-const User = require('../resources/users/user.model');
-const Board = require('../resources/boards/board.model');
-const Task = require('../resources/tasks/task.model');
+const { User, UserSchema } = require('../resources/users/user.model');
+const { Board } = require('../resources/boards/board.model');
+const { Task } = require('../resources/tasks/task.model');
+require('dotenv').config();
+
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+mongoose.set('useCreateIndex', true);
+
+const userScheme = new Schema(User);
+
+mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+const UserModel = mongoose.model('User', UserSchema);
+const user = new UserModel(new User());
+
+user.save(function(err) {
+  mongoose.disconnect(); // отключение от базы данных
+
+  if (err) return console.log(err);
+  console.log('Сохранен объект', user);
+});
 
 const db = {
   Users: [],

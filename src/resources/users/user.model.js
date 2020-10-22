@@ -1,4 +1,6 @@
 const uuid = require('uuid');
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 class User {
   constructor({
@@ -19,4 +21,11 @@ class User {
   }
 }
 
-module.exports = User;
+const UserSchema = new mongoose.Schema({
+  id: { type: String, index: true, required: true, unique: true },
+  name: { type: String, index: true, required: true },
+  login: { type: String, index: true, required: true },
+  password: { type: String, index: true, required: true }
+});
+
+module.exports = { User, UserSchema };
