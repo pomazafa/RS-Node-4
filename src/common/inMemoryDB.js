@@ -20,14 +20,8 @@ const getEntity = async (Model, id) => {
 };
 
 const updateEntity = async (Model, id, entity) => {
-  const oldEntity = await getEntity(Model, id);
-  if (oldEntity) {
-    await oldEntity.update(entity);
-  }
-  console.log(oldEntity);
-  console.log('____________');
-  console.log(await getEntity(Model, id));
-  return await getEntity(Model, id);
+  await Model.updateOne({ id: id }, entity);
+  return getEntity(Model, id);
 };
 
 const saveEntity = async (Model, entity) => {
@@ -35,10 +29,10 @@ const saveEntity = async (Model, entity) => {
 };
 
 const removeEntity = async (Model, id) => {
-  const entity = getEntity(Model, id);
+  const entity = await getEntity(Model, id);
 
   if (entity) {
-    Model.remove(entity);
+    await Model.remove(entity);
   }
   return entity;
 };

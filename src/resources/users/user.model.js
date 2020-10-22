@@ -22,9 +22,9 @@ class User {
 
 const UserSchema = new mongoose.Schema({
   id: { type: String, index: true, required: true, unique: true },
-  name: { type: String, index: true, required: true },
-  login: { type: String, index: true, required: true },
-  password: { type: String, index: true, required: true }
+  name: { type: String, required: true },
+  login: { type: String, required: true },
+  password: { type: String, required: true }
 });
 
 module.exports = { User, UserSchema };

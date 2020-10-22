@@ -26,13 +26,7 @@ const save = async user => {
 };
 
 const update = async (id, user) => {
-  const entity = await db.updateEntity(UserModel, id, user);
-
-  if (!entity) {
-    throw new Error(`Error while updating ${id} user`);
-  }
-
-  return entity;
+  return await db.updateEntity(UserModel, id, user);
 };
 
 module.exports = { getAll, get, remove, save, update };

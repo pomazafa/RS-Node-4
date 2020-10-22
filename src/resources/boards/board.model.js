@@ -22,9 +22,9 @@ class Board {
 
 const BoardSchema = new mongoose.Schema({
   id: { type: String, index: true, required: true, unique: true },
-  title: { type: String, index: true, required: true },
-  columns: { type: String, index: true, required: true },
-  description: { type: [String], index: true, required: true }
+  title: { type: String, required: true },
+  columns: { type: [] },
+  description: { type: String, required: true }
 });
 
 module.exports = { Board, BoardSchema };

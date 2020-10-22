@@ -1,32 +1,32 @@
 const db = require('../../common/inMemoryDB');
-const TABLE_NAME = 'Tasks';
-const { Task } = require('./task.model');
+const mongoose = require('mongoose');
+const { Task, TaskSchema } = require('./task.model');
+const TaskModel = mongoose.model('Task', TaskSchema);
 
 const getAll = async () => {
-  return db.getAllEntities(TABLE_NAME);
+  return db.getAllEntities(TaskModel);
 };
 
 const get = async id => {
-  const task = await db.getEntity(TABLE_NAME, id);
+  const task = await db.getEntity(TaskModel, id);
   if (!task) {
-    console.error(`Task Not found: id=${id}`);
-    return;
+    throw new Error(`Task Not found: id=${id}`);
   }
   return task;
 };
 
 const remove = async id => {
-  if (!(await db.removeEntity(TABLE_NAME, id))) {
+  if (!(await db.removeEntity(TaskModel, id))) {
     throw new Error(`Error while removing ${id} task`);
   }
 };
 
 const save = async task => {
-  return db.saveEntity(TABLE_NAME, new Task(task));
+  return db.saveEntity(TaskModel, new Task(...task));
 };
 
 const update = async (id, task) => {
-  const entity = await db.updateEntity(TABLE_NAME, id, task);
+  const entity = await db.updateEntity(TaskModel, id, task);
 
   if (!entity) {
     throw new Error(`Error while updating ${id} task`);

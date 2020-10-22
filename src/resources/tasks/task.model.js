@@ -29,12 +29,12 @@ class Task {
 
 const TaskSchema = new mongoose.Schema({
   id: { type: String, index: true, required: true, unique: true },
-  title: { type: String, index: true, required: true },
-  order: { type: String, index: true, required: true },
-  deskription: { type: String, index: true },
-  userId: { type: String, index: true, required: true },
-  boardId: { type: String, index: true, required: true },
-  columnId: { type: String, index: true, required: true }
+  title: { type: String, required: true },
+  order: {},
+  deskription: { type: String },
+  userId: {},
+  boardId: {},
+  columnId: {}
 });
 
 module.exports = { Task, TaskSchema };

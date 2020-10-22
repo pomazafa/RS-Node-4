@@ -22,7 +22,7 @@ router
     const id = req.params.id;
     const result = await tasksService.get(id);
     if (result) {
-      res.json(result);
+      res.json(new Task(result));
     } else {
       res.sendStatus(404);
     }
