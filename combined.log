@@ -1,1 +1,396 @@
 {"level":"info","message":"Request info: Method - GET, url - /?asd=2, query params - {}, body - {\"name\":\"Artem\",\"password\":\"asdasd\",\"login\":\"poma\",\"id\":\"2c81fd93-83ba-47ce-a85b-ee30fbf703fd\"}","service":"user-service"}
+{"level":"error","message":"An error occured: ReferenceError: UserModel is not defined","service":"user-service"}
+{"level":"error","message":"An error occured: ReferenceError: UserModel is not defined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'map' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'map' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'map' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'map' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /favicon.ico, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find(...).filter is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: ReferenceError: Model is not defined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: ReferenceError: Model is not defined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne(...).filter is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne(...).filter is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: (intermediate value).filter is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: ReferenceError: entity is not defined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'push' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'push' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'push' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'push' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Cannot read property 'push' of undefined","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: db[tableName] is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: db[tableName] is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/a182a7a0-8fd5-4751-92bb-311d6309f413, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/cfabbcae-8e66-4cc6-9bc8-be64050053c4, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/cfabbcae-8e66-4cc6-9bc8-be64050053c4, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/49e22356-2d34-4f21-8467-62ef7d5a36bf, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/9c4962fa-68e7-4212-b18d-24f11c74d953, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"9c4962fa-68e7-4212-b18d-24f11c74d953\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: oldEntity.update is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/827c00b1-c858-47e3-9a60-72c84b4e213e, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/0b511bf7-8aa1-41c5-ad2e-6f9a421d9296, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/0b511bf7-8aa1-41c5-ad2e-6f9a421d9296, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/855e94c4-4e22-4cd1-b0bb-477822cd03f2, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/591e7299-d3d6-4f7b-8fc3-8363e55e180d, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"591e7299-d3d6-4f7b-8fc3-8363e55e180d\"}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: oldEntity.update is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/13f0e515-e7e4-4642-b189-0fdd5eba4dd3, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/14dd96a8-cbf6-4a3d-9da0-08975cffc729, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/14dd96a8-cbf6-4a3d-9da0-08975cffc729, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/12f40f82-64df-4787-8d31-237cb67043b6, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/b1c8be36-d727-4a61-ab6e-5e0cc469dba6, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"b1c8be36-d727-4a61-ab6e-5e0cc469dba6\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/b1c8be36-d727-4a61-ab6e-5e0cc469dba6, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/af51fd12-f7ad-4c81-bb86-7cd59da7c316, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/e303450f-4d2c-48c4-a8c9-ed8a6319d2b0, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/e303450f-4d2c-48c4-a8c9-ed8a6319d2b0, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/2dfdc18b-8310-48b2-8f5e-92a51d824d5b, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/e8f7d85c-0f99-4dac-bfad-8a635c8c72e1, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"e8f7d85c-0f99-4dac-bfad-8a635c8c72e1\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/e8f7d85c-0f99-4dac-bfad-8a635c8c72e1, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/e8f7d85c-0f99-4dac-bfad-8a635c8c72e1, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/f821bd8c-5191-46b1-ae9e-82651847e70b, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/8de5b62c-d14a-4e4b-8e11-825f4d57a3b7, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/8de5b62c-d14a-4e4b-8e11-825f4d57a3b7, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/9d291b8d-6647-4cac-97f0-e0366420bbbd, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/8ac90b6b-d2b8-4935-af62-0c420577f1bd, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"8ac90b6b-d2b8-4935-af62-0c420577f1bd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/8ac90b6b-d2b8-4935-af62-0c420577f1bd, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/8ac90b6b-d2b8-4935-af62-0c420577f1bd, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/b9dc6ff5-e74d-420f-b161-af2cd03b085a, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/82da3356-ec72-4c39-883d-f2b212e289dd, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/82da3356-ec72-4c39-883d-f2b212e289dd, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/f7f31082-f8ca-4e14-99c6-709947ca6296, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/f453101b-15fb-456a-976b-eb0c3ccc57be, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"f453101b-15fb-456a-976b-eb0c3ccc57be\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/cfc8905a-c29b-4908-aab4-bdf568fbc6b0, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/f453101b-15fb-456a-976b-eb0c3ccc57be, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/f453101b-15fb-456a-976b-eb0c3ccc57be, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/92f889d5-e237-4278-a37f-5235a342ef41, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/92f889d5-e237-4278-a37f-5235a342ef41, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/e8a6a83d-86ea-4354-ab1f-bea58fe2c1b0, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - PUT, url - /users/ac42525d-3fc9-4374-a816-890f224ad137, query params - {}, body - {\"name\":\"Autotest updated TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\",\"id\":\"ac42525d-3fc9-4374-a816-890f224ad137\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /users/ac42525d-3fc9-4374-a816-890f224ad137, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/ac42525d-3fc9-4374-a816-890f224ad137, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /users/388afb3f-3d58-429a-952b-a13c30684f2b, query params - {}, body - {}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /users, query params - {}, body - {\"name\":\"TEST_USER\",\"login\":\"test_user\",\"password\":\"T35t_P@55w0rd\"}","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.find is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards/undefined/tasks, query params - {}, body - {\"title\":\"Autotest task\",\"order\":0,\"description\":\"Lorem ipsum\",\"userId\":null,\"boardId\":null,\"columnId\":null}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - GET, url - /boards/undefined/tasks/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}
+{"level":"info","message":"Request info: Method - POST, url - /boards, query params - {}, body - {\"title\":\"Autotest board\",\"columns\":[{\"title\":\"Backlog\",\"order\":1},{\"title\":\"Sprint\",\"order\":2}]}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model is not a constructor","service":"user-service"}
+{"level":"info","message":"Request info: Method - DELETE, url - /boards/undefined, query params - {}, body - {}","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.findOne is not a function","service":"user-service"}
+{"level":"error","message":"An error occured: TypeError: Model.remove is not a function","service":"user-service"}

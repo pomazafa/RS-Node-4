@@ -1,13 +1,14 @@
 const db = require('../../common/inMemoryDB');
-const TABLE_NAME = 'Users';
-const { User } = require('./user.model');
+const mongoose = require('mongoose');
+const { User, UserSchema } = require('./user.model');
+const UserModel = mongoose.model('User', UserSchema);
 
 const getAll = async () => {
-  return db.getAllEntities(TABLE_NAME);
+  return db.getAllEntities(UserModel);
 };
 
 const get = async id => {
-  const user = await db.getEntity(TABLE_NAME, id);
+  const user = await db.getEntity(UserModel, id);
   if (!user) {
     throw new Error(`User Not found: id=${id}`);
   }
@@ -15,17 +16,17 @@ const get = async id => {
 };
 
 const remove = async id => {
-  if (!(await db.removeEntity(TABLE_NAME, id))) {
+  if (!(await db.removeEntity(UserModel, id))) {
     throw new Error(`Error while removing ${id} user`);
   }
 };
 
 const save = async user => {
-  return db.saveEntity(TABLE_NAME, new User(user));
+  return db.saveEntity(UserModel, new User(user));
 };
 
 const update = async (id, user) => {
-  const entity = await db.updateEntity(TABLE_NAME, id, user);
+  const entity = await db.updateEntity(UserModel, id, user);
 
   if (!entity) {
     throw new Error(`Error while updating ${id} user`);
