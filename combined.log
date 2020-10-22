@@ -1,0 +1,1 @@
+{"level":"info","message":"Request info: Method - GET, url - /?asd=2, query params - {}, body - {\"name\":\"Artem\",\"password\":\"asdasd\",\"login\":\"poma\",\"id\":\"2c81fd93-83ba-47ce-a85b-ee30fbf703fd\"}","service":"user-service"}
