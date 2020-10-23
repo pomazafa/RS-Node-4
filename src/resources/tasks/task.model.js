@@ -31,7 +31,7 @@ const TaskSchema = new mongoose.Schema({
   id: { type: String, index: true, required: true, unique: true },
   title: { type: String, required: true },
   order: {},
-  deskription: { type: String },
+  description: { type: String },
   userId: {},
   boardId: {},
   columnId: {}

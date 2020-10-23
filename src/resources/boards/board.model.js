@@ -23,7 +23,7 @@ class Board {
 const BoardSchema = new mongoose.Schema({
   id: { type: String, index: true, required: true, unique: true },
   title: { type: String, required: true },
-  columns: { type: [] },
+  columns: {},
   description: { type: String, required: true }
 });
 

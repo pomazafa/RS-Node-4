@@ -16,16 +16,6 @@ app.use(express.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
 
-/*    // to check error handling
-app.use((req, res, next) => {
-  try {
-    throw new Error('My Custom Error');
-  } catch (err) {
-    next(err);
-  }
-});
-*/
-
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 app.use((req, res, next) => {
@@ -47,10 +37,7 @@ app.use('/boards/:boardId/tasks', taskRouter);
 
 app.use(function(err, req, res, next) {
   errorHandle(err);
-  res.status(500).send('Something broke!');
+  res.status(err.status).send(err);
 });
-
-// throw Error('Oops!');
-// Promise.reject(Error('Oops!'));
 
 module.exports = app;
