@@ -7,8 +7,9 @@ router
   .route('/')
   .get(
     asyncWrapper(async (req, res) => {
-      const tasks = await tasksService.getAll();
-      res.json(tasks.map(Task.toResponse));
+      const boardId = req.params.boardId;
+      const tasks = await tasksService.getAll(boardId);
+      res.json(tasks);
     })
   )
   .post(
@@ -28,7 +29,7 @@ router
       const id = req.params.id;
       const result = await tasksService.get(id);
       if (result) {
-        res.json(new Task(result));
+        res.json(result);
       } else {
         res.sendStatus(404);
       }

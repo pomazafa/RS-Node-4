@@ -2,6 +2,7 @@ const db = require('../../common/inMemoryDB');
 const { Board, BoardSchema } = require('./board.model');
 const mongoose = require('mongoose');
 const BoardModel = mongoose.model('Board', BoardSchema);
+const TaskService = require('../tasks/task.service');
 
 const getAll = async () => {
   return db.getAllEntities(BoardModel);
@@ -20,6 +21,11 @@ const remove = async id => {
   if (!(await db.removeEntity(BoardModel, id))) {
     throw new Error(`Error while removing ${id} board`);
   }
+  (await TaskService.getAll()).forEach(task => {
+    if (task.boardId == id) {
+      TaskService.remove(task.id);
+    }
+  });
 };
 
 const save = async board => {

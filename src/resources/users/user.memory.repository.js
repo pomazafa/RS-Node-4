@@ -2,6 +2,8 @@ const db = require('../../common/inMemoryDB');
 const mongoose = require('mongoose');
 const { User, UserSchema } = require('./user.model');
 const UserModel = mongoose.model('User', UserSchema);
+const TaskService = require('../tasks/task.service');
+const taskModel = require('../tasks/task.model');
 
 const getAll = async () => {
   return db.getAllEntities(UserModel);
@@ -19,6 +21,12 @@ const remove = async id => {
   if (!(await db.removeEntity(UserModel, id))) {
     throw new Error(`Error while removing ${id} user`);
   }
+  (await TaskService.getAll()).forEach(task => {
+    if (task.userId === id) {
+      task.userId = null;
+      TaskService.update(task.id, task);
+    }
+  });
 };
 
 const save = async user => {
