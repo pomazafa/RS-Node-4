@@ -18,7 +18,7 @@ function requestLog(req) {
     level: 'info',
     message: `Request info: Method - ${req.method}, url - ${
       req.url
-    }, query params - ${JSON.stringify(req.params)}, body - ${JSON.stringify(
+    }, query params - ${JSON.stringify(req.query)}, body - ${JSON.stringify(
       req.body
     )}`
   });
