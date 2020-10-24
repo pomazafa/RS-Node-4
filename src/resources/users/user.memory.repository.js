@@ -4,6 +4,7 @@ const { User, UserSchema } = require('./user.model');
 const UserModel = mongoose.model('User', UserSchema);
 const TaskService = require('../tasks/task.service');
 const taskModel = require('../tasks/task.model');
+var createError = require('http-errors');
 
 const getAll = async () => {
   return db.getAllEntities(UserModel);
@@ -12,21 +13,21 @@ const getAll = async () => {
 const get = async id => {
   const user = await db.getEntity(UserModel, id);
   if (!user) {
-    throw new Error(`User Not found: id=${id}`);
+    throw createError(404, `User Not found: id=${id}`);
   }
   return user;
 };
 
 const remove = async id => {
-  if (!(await db.removeEntity(UserModel, id))) {
-    throw new Error(`Error while removing ${id} user`);
-  }
   (await TaskService.getAll()).forEach(task => {
     if (task.userId === id) {
       task.userId = null;
       TaskService.update(task.id, task);
     }
   });
+  if (!(await db.removeEntity(UserModel, id))) {
+    throw createError(500, `Error while removing ${id} user`);
+  }
 };
 
 const save = async user => {

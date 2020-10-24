@@ -8,5 +8,6 @@ const get = id => tasksRepo.get(id);
 const update = (id, task) => tasksRepo.update(id, task);
 const remove = id => tasksRepo.remove(id);
 const save = task => tasksRepo.save(task);
+const deleteBoardTasks = id => tasksRepo.deleteMany(id);
 
-module.exports = { getAll, get, update, remove, save };
+module.exports = { getAll, get, update, remove, save, deleteBoardTasks };

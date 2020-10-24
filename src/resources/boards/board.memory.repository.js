@@ -3,6 +3,7 @@ const { Board, BoardSchema } = require('./board.model');
 const mongoose = require('mongoose');
 const BoardModel = mongoose.model('Board', BoardSchema);
 const TaskService = require('../tasks/task.service');
+var createError = require('http-errors');
 
 const getAll = async () => {
   return db.getAllEntities(BoardModel);
@@ -11,21 +12,16 @@ const getAll = async () => {
 const get = async id => {
   const board = await db.getEntity(BoardModel, id);
   if (!board) {
-    console.error(`Board Not found: id=${id}`);
-    return;
+    throw createError(404, `Board Not found: id=${id}`);
   }
   return board;
 };
 
 const remove = async id => {
   if (!(await db.removeEntity(BoardModel, id))) {
-    throw new Error(`Error while removing ${id} board`);
+    throw createError(500, `Error while removing ${id} board`);
   }
-  (await TaskService.getAll()).forEach(task => {
-    if (task.boardId == id) {
-      TaskService.remove(task.id);
-    }
-  });
+  TaskService.deleteBoardTasks(id);
 };
 
 const save = async board => {

@@ -31,7 +31,7 @@ const removeEntity = async (Model, id) => {
   const entity = await getEntity(Model, id);
 
   if (entity) {
-    await Model.remove(entity);
+    await Model.deleteOne(entity);
   }
   return entity;
 };
